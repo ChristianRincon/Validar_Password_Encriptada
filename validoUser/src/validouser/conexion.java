@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 
 public class conexion {
     public Connection conexion;
-    private String url = "jdbc:mysql://localhost:3306/redsocial"; // Solo hay que cambiar el nombre a tu base de datos.
+    private String url = "jdbc:mysql://localhost:3306/redsocial"; // Solo hay que adaptar el nombre a tu base de datos. En este ejemplo es 'redsocial'
     private String user = "root";
     private String key = "";
 
