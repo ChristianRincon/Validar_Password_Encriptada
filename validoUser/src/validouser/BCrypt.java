@@ -1,3 +1,4 @@
+// Clase necesaria para utilizar BCrypt y su método 'checkpw' (Entre otros).
 
 package validouser;
 
