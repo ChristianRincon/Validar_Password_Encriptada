@@ -23,6 +23,7 @@ public class ValidoUser {
             Statement st = conn.conexion.createStatement();
             ResultSet rs = st.executeQuery(query); // Ejecuto la query   
             
+	    // Comenzamos a evaluar
             while(rs.next()){
                 // Comparo lo ingresado en el input de Java con lo que encripté con PHP y tengo alojado en phpMyAdmin
                 boolean check = BCrypt.checkpw(clave, rs.getString("Password"));
