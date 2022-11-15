@@ -13,7 +13,7 @@ public class ValidoUser {
         Scanner input = new Scanner(System.in);
         
         try{
-            System.out.print("Ingrese su mail: "); // Solicito nombre
+            System.out.print("Ingrese su mail: "); // Solicito email
             String mail = input.nextLine();
         
             System.out.print("Ingrese su clave: "); // Solicito clave
